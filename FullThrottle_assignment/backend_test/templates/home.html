@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<style>
+.header {
+  background-color: PaleTurquoise;
+  padding: 20px;
+  text-align: center;
+}
+.button {
+  background-color: PaleTurquoise;
+  width: 150px;
+  font-size: 20px;
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #f44336;
+  color: white;
+</style>
+<html>
+    <head>
+        <center><title>FullThrottle Lab</title></center>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="header">
+            <center>
+                <h1>Full Throttle Labs</h1>
+            </center>
+        </div>
+        <div>
+            <center>
+                <h3>Assignment</h3>
+                <p>Click below button to download user data in json format</p>
+            </center>
+            <div>
+                <form>
+                <center><button class="button" onclick="location.href='/json_file'" type="button">JSON file</button></center>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
