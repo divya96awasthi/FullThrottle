@@ -5,3 +5,5 @@ eg: python manage.py populate_db 2 -->it will add two user and respective data i
 Run the server to get data in json format : python manage.py runserver
 
 open the downloaded json file with the help of any json file viewr.
+
+Api is hosted on pythonanywhere. you can find it here--> http://divyaawasthi.pythonanywhere.com/
